@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+</head>
+<body>
+    <h1>Frutas</h1>
+    <hr>
+    <form action="">
+        <fieldset display="Dados Pessoais">
+            <legend>Dados Pessoais</legend>
+            <label for="fname">Nome:
+                <input type="text" placeholder="Nome" required><br>
+            </label>
+            <label for="lname">Endereço:
+                <input type="text" placeholder="Endereço" required><br>
+            </label>
+            <label for="lname">E-mail:
+                <input type="email" placeholder="E-mail" required><br>
+            </label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Dados de Consumo</legend>
+            <label for="lname">Quantas porções de frutas você come por dia?</label><br><br>
+            <input type="radio" name="fruta">
+                <label>0</label>
+            <input type="radio" name="fruta">
+                <label>1</label>
+            <input type="radio" name="fruta">
+                <label>2</label>
+            <input type="radio" name="fruta">
+                <label>Mais que 2</label>
+            <br><br>
+            <label>Quais são suas frutas preferidas?<label><br>
+            <select name="frutas" size="5" multiple>
+                <option value="Maçã">Maçã</option>
+                <option value="Banana">Banana</option>
+                <option value="Mamão">Mamão</option>
+                <option value="Laranja">Laranja</option>
+                <option value="Melão">Melão</option>
+                <option value="Melancia">Melancia</option>
+                <option value="Pera">Pera</option>
+                <option value="Uva">Uva</option>
+                <option value="Abacate">Abacate</option>
+              </select><br><br>
+              <label>Gostaria de receber promoções?</label>
+            <input type="checkbox">Sim!
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Cancelar"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
